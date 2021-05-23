@@ -1,0 +1,24 @@
+footer {
+  color: $white;
+  text-align: center;
+  background-color: #00274C;
+
+  img {
+    float: left;
+    padding-right: 35px;
+    margin-left:10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    max-width: 10em;
+  }
+
+  p {
+    font-size: 0.5em;
+    color: #ccc;
+    text-align: justify;
+  }
+  a {
+    color: #ccc;
+  }
+
+}

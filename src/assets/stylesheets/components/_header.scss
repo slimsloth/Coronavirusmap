@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+header {
+
+  width: 100%;
+  color: $white;
+  background-color: #00203e;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5em;
+    line-height: 2.5em;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 0 .5em;
+  }
+
+  p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  #nav-title {
+    font-family: 'Crimson Text';
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    float: left;
+  }
+
+}
